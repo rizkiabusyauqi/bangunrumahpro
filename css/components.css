@@ -54,6 +54,18 @@
   font-weight: 600;
 }
 
+.media-section {
+  display: grid;
+  gap: 28px;
+}
+
+.wide-image {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 14px 36px rgba(23,59,89,.08);
+}
+
 @media (min-width: 768px) {
   .product-card { grid-template-columns: 1fr auto; }
 }
