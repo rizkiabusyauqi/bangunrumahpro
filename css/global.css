@@ -176,6 +176,10 @@ nav a {
   .container { width: min(100% - 24px, var(--container)); }
 }
 
+@media (max-width: 767px) {
+  .product-page .site-header { display: none; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
